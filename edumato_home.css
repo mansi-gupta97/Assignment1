@@ -1,0 +1,188 @@
+body{
+    margin: auto;
+}
+
+#search{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    background-image: url(food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+
+}
+
+
+
+#login{
+    margin-left: 70%;
+    
+}
+
+#login> a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin-left: 45%;
+    border-radius: 50%;
+
+}
+
+#logo> p{
+    font-weight: bold;
+    position: absolute;
+    margin-left: 43px;
+    margin-top: 10px
+}
+
+#heading{
+    color: beige;
+    font-size: 30px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#dropdown{
+    
+    height:60px;
+    width:60%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+select{
+    height:60px;
+    width:30%;
+    font-size: 15px;
+    
+}
+
+#restaurants{
+    width:50%
+}
+
+#main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#quicksearch{
+    
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#quickheading{
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quicksubheading{
+    color: grey;
+    font-size: 20px;
+    margin-top: -2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.tileContainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+/*
+.tilecontainer:hover{
+    transform: scale(1.2)
+}
+*/
+
+#maincontent{
+    margin-top: -1%;
+}
+
+.tileComponent1{
+    width: 50%;
+    float: left;
+}
+
+.tileComponent2{
+    width: 46%;
+    float:left;
+    margin-left:12px;
+    margin-top: 33px;
+}
+
+.tileComponent1 > img{
+    height: 180px;
+    width: 100%;
+}
+
+.componentheading{
+    color: #192f60;
+    font: size 25px;
+    font-weight: bold;
+}
+
+.componentsubheading{
+    color: grey;
+    font: size 16px;
+    line-height: 1;
+    
+}
+
+@media screen and (max-width:1366px)
+{
+    body{
+        background-color: white;
+    }
+}
+
+/*
+@media screen and (max-width:1400px){
+    body{
+        background-color:purple;
+    }
+}
+*/
+
+@media screen and (max-width:1204px){
+    body{
+        background-color:lightgoldenrodyellow;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color:aqua;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+
+
+
+

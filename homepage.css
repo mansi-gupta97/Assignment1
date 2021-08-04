@@ -1,0 +1,181 @@
+#head{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(139, 8, 8);
+    color:white;
+    text-align: right;
+}
+
+body{
+    margin:auto;
+}
+
+#heading{
+    color:red;
+    margin-right: 20%;
+   
+    
+}
+
+#logo_main
+    {
+        width:60px;
+        height:60px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 85px;
+       
+        
+        
+       
+
+    
+    }
+
+#login{
+    margin-top: -2%;
+    margin-right: 4%;
+    font-size: 20px;
+
+    
+}
+
+#create{
+    border: 1px solid white;
+    padding: 1%;
+}
+
+
+
+#main{
+    
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+
+
+#filter
+{
+    height:600px;
+    width:20%;
+    display: inline-block;
+    margin-bottom: 5%;
+    box-shadow: 0px 3px 8px rgb(175, 159, 159);
+    
+
+}
+
+
+#drop{
+    width:60%;
+    margin-left: 10%;
+}
+
+.subhead{
+    color:#192f60;
+    font-weight:bold;
+    margin-left:8%;
+    font-size: 18px;
+    
+    
+
+}
+
+#content
+{
+    
+    width:60%;
+    display:inline-block;
+    margin-left: 5%;
+    position: absolute;
+    
+   
+
+}
+
+
+.checker{
+    margin-left: 8%;
+    color:#192f60;
+    line-height:23px;
+    
+    
+}
+
+
+
+.menu{
+    width:100%;
+    height:250px;
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px rgb(175, 159, 159);
+
+
+    
+}
+
+.photo{
+    width: 100px;
+    height:40px;
+    margin-top:3%;
+    margin-left:3%;
+   
+    
+}
+
+.photo > img{
+    height:120px;
+    width:120px;
+    border-radius:30%;
+    margin-top: 15%;
+   
+}
+
+.menuheading{
+    margin-left:20%;
+    font-size:35px;
+    margin-top:-1%;
+    font-weight:bold;
+    color:#192f60;
+    
+}
+
+.menuinfo > h2{
+    margin-left:4%;
+    color:rgb(55, 55, 121);
+    line-height: 10px;
+    margin-top: 3%;
+    
+}
+
+.subheading{
+    color:rgb(9, 9, 87);
+    margin-left:21%;
+    margin-top:2%;
+    line-height: 20px;
+    
+}
+
+.subheading > p{
+    color:grey;
+    line-height:0.1;
+}
+
+
+.item{
+    float:left;
+    color: #636f88;
+    margin-left: 4%;
+    line-height:16px;
+    font-size: 20px;
+    
+}
+
+.cost{
+    float:left;
+    color: #192768;
+    margin-left: 5%;
+    line-height:16px;
+    font-size: 20px;
+}
